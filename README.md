@@ -4,7 +4,7 @@
 
 All names should be meaningful, descriptive, and readable.
 
-```
+```{c++}
 //Good
 int wordCount;
 
@@ -17,7 +17,7 @@ int wrCt;
 
 Variable names should be camel-case, starting with a lowercase letter.
 
-```
+```{c++}
 //Good
 int flightCount;
 
@@ -29,7 +29,7 @@ int FlightCount;
 
 Function names should follow the same convention as variables.
 
-```
+```{c++}
 //Good
 int countFlights();
 
@@ -40,7 +40,7 @@ int Count_Flights();
 ### Classes
 
 Classe names should be camel-case, starting with an uppercase letter.
-```
+```{c++}
 //Good
 class FlightPath {};
 
@@ -53,7 +53,7 @@ class flightpath {};
 ### Inline comments
 Inline comments should be expalantory but brief and concise, and should be placed above the line if more than a few words, or can be placed to the right of the line if only about 2-3 words. If placing multiple comments to the side, they should be aligned along the same column.
 
-```
+```{c++}
 // Good
 
 // Partition array and return pivot index
