@@ -50,6 +50,13 @@ class flightpath {};
 
 ## Comments
 
+
+### Function comments
+Almost every function should have a descriptive comment preceding the declaration describing what the function does (not necessarily how it is done) unless the function is self-explanatory such as simple setter/getter functions.
+  
+### Class comments
+Every class should have a descriptive comment at the top of the file describing what the class is and how it is used.
+  
 ### Inline comments
 Inline comments should be expalantory but brief and concise, and should be placed above the line if more than a few words, or can be placed to the right of the line if only about 2-3 words. If placing multiple comments to the side, they should be aligned along the same column.
 
