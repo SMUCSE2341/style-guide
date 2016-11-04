@@ -139,3 +139,28 @@ void foo() {
     }
 }
 ```
+
+
+## Line Length
+Lines should be at most 80 characters long to maximize readability.
+  
+Split long conditionals into multiple lines and align conditions
+```{c++}
+if (nodeA->left != nullptr && nodeB->right != nullptr) &&
+   (nodeA->left->value == nodeB->right->value) {
+
+
+}
+```
+
+Wrap parameter lists that don't fit onto the next line and align parameters in
+function declarations and calls.
+```{c++}
+pair<string, vector<string>> reallyLongFunctionName(string foo, string bar,
+                                                    vector<string> foobar,
+                                                    pair<string, double> baz) {
+                                                         
+                                                         
+}
+```
+
